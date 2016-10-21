@@ -8,7 +8,6 @@ printf("\n Enter the Salary:");
 scanf("%d",&sal);
 printf(" \n Enter no of leave:");
 scanf(" %d",&leave); 
-
 if(sal>=15000){
 	
 	med=sal*2/100;
@@ -22,7 +21,7 @@ if(sal>=20000){
 	fuel=sal*2/100;
 	lunch=sal*5/100;
 	mob=sal*2/00;
-}
+	}
 if(sal>=255000){
 	
 	med=sal*4/100;

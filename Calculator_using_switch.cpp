@@ -3,26 +3,23 @@
 main(){
 
 int add ,sub, mul, div,num1,num2,op,result;
-add=1;
-sub=2;
-mul=3;
-div=4;
 
-printf("\n SIMPLE CALCULATOR");
-printf("\n---------------------------");	
-printf("\n Enter %d for Addition",add);	
-printf("\n Enter %d for SUBTRACTION",sub);	
-printf("\n Enter %d for MULTIPLICATION",mul);	
-printf("\n Enter %d for DIVISION",div);
-printf("\n----------------------------");
-
+printf("\n\t\t SIMPLE CALCULATOR");
+printf("\n------------------------------------------------");
 printf("\n Enter First Number : ",num1);
 scanf("\n %d",&num1);
 printf("\n Enter Second Number: ",num1);
 scanf("\n %d",&num2);
-
-printf("\n Enter Operator : ",op);
-scanf("\n %d",&op);
+printf("\n------------------------------------------------");
+printf("\n WHAT DO  YOU  WANT ? ");
+printf("\n");	
+printf("\n PRESS 1 FOR  ADDITION\n");	
+printf("\n PRESS 2 FOR  SUBTRACTION\n");	
+printf("\n PRESS 3 FOR  MULTIPLICATION\n");	
+printf("\n PRESS 4 FOR  DIVISION\n");
+printf("\n------------------------------------------------");
+printf("\n ENTER YOUR CHOICE : ");
+scanf("%d",&op);
 
 switch(op){
  

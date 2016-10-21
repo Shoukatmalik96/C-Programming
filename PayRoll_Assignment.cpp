@@ -46,32 +46,31 @@ gross=sal+med+lunch+mob+fuel;
 itax=gross*2/100;
 net= gross-itax;
 
-
-printf("\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
-printf("\n\t\tRoshan Packages Pvt Ltd Pakistan");
 printf("\n\n------------------------------------------------------------------------");
-printf("\nSalary                                                       %d",    sal);
-printf("\nmed                                                          %d",    med);
-printf("\nlunch                                                        %d",    lunch);
-printf("\nfuel                                                         %d",    fuel);
-printf("\nmob                                                          %d",    mob);
+printf("\n\t\t| ROSHAN PACAGES PAKISTAN PVT Ltd |");
+printf("\n\n------------------------------------------------------------------------");
+printf("\nSALARY                            |                          %d", sal);
+printf("\nMEDICAL                           |                          %d", med);
+printf("\nLUNCH                             |                          %d", lunch);
+printf("\nFUEL                              |                          %d", fuel);
+printf("\nMOBILE CARD                                                  %d",  mob);
 printf("\n--------------------------------------------------------------------------");
-printf("\nGross Salary                                                 %d",    gross);
-printf("\n--------------------------------------------------------------------------");
-printf("\nIncome Tax                                                   %d",     itax);
-printf("\n------------------------------------------------------------------------");
-
+printf("\nGROSS SALARY                      |    %d", gross);
+printf("\nINCOME TAX                        |    %d", itax);
+ 
 if(employee_leave > 2)
 {
  int a=employee_leave -2;
  int b=sal/30*a;
  int newnet=b;
- printf("\nNo of Leave of employee in this moth                          %d",      a );
- printf("\nTotal deduction of %d days                                    %d",      a,b);
+ //printf("\n\n");
+ printf("\nNO OF LEAVES IN THIS MONTH        |    %d", a );
+ printf("\nTOTAL DETACTION OF %d DAYS         |    %d", a,b);
  
 }
-printf("\n----------------------------------------------------------------------------");
-printf("\nNet Salary                                                    %d",    net);
-printf("\n\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
+printf("\n--------------------------------------------------------------------------");
+printf("\nNet SALARY                        |                       %d", net);
+printf("\n\n------------------------------------------------------------------------");
+
 }
 

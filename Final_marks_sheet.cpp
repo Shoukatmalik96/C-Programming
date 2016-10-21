@@ -7,10 +7,11 @@ main(){
 	char Grade;
 	total=500;
 	
-	obt=math+phys+chem+eng+urdu+Islam;
-	percentage= (float)obt/total;
-	
-	printf("\n Enter Math Marks :");
+	FILE  *f;
+	f= fopen(f, "Marks sheet.docx","w");
+	fprintf(f ,"\n\t\t\t\tMarks Sheet");
+	fprintf( f , "\n--------------------------------------------------------------------------------");
+	fprintf(f , "\n Enter Math Marks :");
 	scanf("\n %d",&math);
     printf("\n Enter Physics Marks :");
 	scanf("\n %d",&phys);
@@ -22,6 +23,8 @@ main(){
 	scanf("\n %d",&urdu);
 	printf("\n Enter Islamiat Marks :");
 	scanf("\n %d",&Islam);
+	obt=math+phys+chem+eng+urdu+Islam;
+	percentage= (float)obt/total;
 	
 	
 	
@@ -82,19 +85,19 @@ main(){
 	
 	
 	if(percentage>80){
-	printf("\n A One  Grade")
+	printf("\n A One  Grade");
 	}
 	if(percentage>70 && percentage<=80){
-	printf("\n A Grade")
+	printf("\n A Grade");
     }
-    f(percentage>60 && percentage<=70){
-	printf("\n B Grade")
+    if(percentage>60 && percentage<=70){
+	printf("\n B Grade");
     }
-    f(percentage>50 && percentage<=60){
-	printf("\n C Grade")
+    if(percentage>50 && percentage<=60){
+	printf("\n C Grade");
     }
-    f(percentage>40 && percentage<=50){
-	printf("\n Fail")
+    if(percentage>40 && percentage<=50){
+	printf("\n Fail");
     }
 	if(phys>=35 && chem>=35 && math>=35 && eng>=35 && urdu>=35 && Islam>=35 )
   	{
