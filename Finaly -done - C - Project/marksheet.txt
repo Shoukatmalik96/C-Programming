@@ -1,0 +1,49 @@
+
+			MARKS SHEET
+ Your Name is 52 63
+BORD OF INTERMIDIATE & SECONDRY EDUCATION KARACHI
+----------------------------------------------------------------------
+SUBJECTS                        OBTAIN_MARKS                      STATUS
+Physics                             96                             Pass
+Math                                86                             Pass
+Chemistry                           74                             Pass
+English                             85                             Pass
+Urdu                                96                             Pass
+------------------------------------------------------------------------
+ TotalMarks                               500
+ Obtain Marks                             482
+-------------------------------------------------------------------------
+ Percentage                           80.33
+ A One  Grade
+			MARKS SHEET
+ Your Name is 52 52
+BORD OF INTERMIDIATE & SECONDRY EDUCATION KARACHI
+----------------------------------------------------------------------
+SUBJECTS                        OBTAIN_MARKS                      STATUS
+Physics                             41                             Pass
+Math                                63                             Pass
+Chemistry                           52                             Pass
+English                             52                             Pass
+Urdu                                63                             Pass
+------------------------------------------------------------------------
+ TotalMarks                               500
+ Obtain Marks                             356
+-------------------------------------------------------------------------
+ Percentage                           59.33
+ C Grade
+			MARKS SHEET
+ Your Name is Shoukat Malik
+BORD OF INTERMIDIATE & SECONDRY EDUCATION KARACHI
+----------------------------------------------------------------------
+SUBJECTS                        OBTAIN_MARKS                      STATUS
+Physics                             96                             Pass
+Math                                65                             Pass
+Chemistry                           75                             Pass
+English                             85                             Pass
+Urdu                                96                             Pass
+------------------------------------------------------------------------
+ TotalMarks                               500
+ Obtain Marks                             462
+-------------------------------------------------------------------------
+ Percentage                           77.00
+ A Grade

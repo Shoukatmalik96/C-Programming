@@ -1,0 +1,5 @@
+
+ The sum of 55 and 63 is 118
+ The subtraction of 45 and 23 is 22
+ The multiplication of 52 and 41 is 2132
+ The sum of 52 and 63 is 115
